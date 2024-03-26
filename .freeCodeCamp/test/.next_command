@@ -96,3 +96,6 @@ psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git remote add origin https://github.com/casafchile/freeCodeCamp-postgres-universedb.git
 git add .
+git commit -m "init commit"
+git push -u origin master
+git remote add origin https://github.com/casafchile/freeCodeCamp-postgres-universedb.git
